@@ -1,0 +1,37 @@
+
+body{
+    margin-top: 100px;
+}
+
+.login-form{
+
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+#bankProfile{
+    display: none;
+}
+
+.deposit{
+    background-color:#5E4EC5;
+}
+.withdrow{
+    background-color:#EF956E;
+}
+.balance{
+    background-color:#EE9A00;
+}
+
+.bank-status{
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+
+.submit-area{
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
