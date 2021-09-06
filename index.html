@@ -37,19 +37,19 @@
                 <div class="col-md-4">
                     <div class="deposit bank-status ">
                         <h2>Deposit</h2>
-                        <h3>$00</h3>
+                        <h3>$<span id = "setValAmmount">00</span></h3>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="withdrow bank-status">
                         <h2>Withdrow</h2>
-                        <h3>$00</h3>
+                        <h3>$<span id = "withdrawAmount">00</span></h3>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="balance bank-status">
                         <h2>Balance</h2>
-                        <h3>$1200</h3>
+                        <h3>$<span id = "balaceAmmount">1200</span></h3>
                     </div>
                 </div>
             </div>
@@ -59,15 +59,15 @@
                     <div class="col-md-6">
                         <div class="submit-area">
                             <h4>Deposit</h4>
-                            <input class="form-control mb-3" type="text"  placeholder="$ ammount you want to deposit">
-                            <button class="btn btn-success">deposit</button>
+                            <input id ="amnount-val"class="form-control mb-3" type="text"  placeholder="$ ammount you want to deposit">
+                            <button id ="submitBTN" class="btn btn-success">deposit</button>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="submit-area">
                             <h4>Withdrow</h4>
-                            <input class="form-control mb-3" type="text" placeholder="$ ammount you want to withdraw">
-                            <button class="btn btn-success">withdrow</button>
+                            <input id = "withdrowInput" class="form-control mb-3" type="text" placeholder="$ ammount you want to withdraw">
+                            <button id ="withdrowBtn" class="btn btn-success">withdrow</button>
                         </div>
                     </div>
               
